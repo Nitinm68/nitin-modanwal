@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import profile from "../assets/images/Nitin Developer Profile.jpeg";
+import profile from "../assets/images/Nitin developer Profile.jpeg";
 import resume from "../assets/NitinModanwal_9569601986_resume.pdf";
 import AnimatedSection from "./animations/AnimatedSection";
 
