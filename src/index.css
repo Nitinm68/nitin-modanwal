@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+  /* DARK MODE (Default) */
+  --bg-main: #0b0b0b;
+  --bg-card: #151515;
+  --bg-card-hover: #1a1a1a;
+  --bg-input: #1a1a1a;
+  --text-main: #ffffff;
+  --text-muted: #888888;
+  --text-accent: #bdbdbd;
+  --border-light: rgba(255, 255, 255, 0.08);
+  --border-focus: rgba(139, 92, 246, 0.25);
+  --primary: #8b5cf6;
+  --nav-bg: rgba(0, 0, 0, 0.55);
+  --nav-scrolled: #000000;
+  --btn-text: #000000;
+}
+
+.light-mode {
+  /* LIGHT MODE */
+  --bg-main: #f8f9fa;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f1f3f5;
+  --bg-input: #ffffff;
+  --text-main: #111111;
+  --text-muted: #555555;
+  --text-accent: #333333;
+  --border-light: rgba(0, 0, 0, 0.08);
+  --border-focus: rgba(139, 92, 246, 0.4);
+  --primary: #8b5cf6;
+  --nav-bg: rgba(255, 255, 255, 0.7);
+  --nav-scrolled: #ffffff;
+  --btn-text: #ffffff;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  transition: background-color 0.4s ease, color 0.4s ease;
+  top: 0 !important;
+}
+
+/* Hide Google Translate UI */
+.skiptranslate > iframe.skiptranslate {
+    display: none !important;
+    visibility: hidden !important;
+}
+#google_translate_element {
+    display: none !important;
+}
+.goog-te-banner-frame {
+    display: none !important;
+}
